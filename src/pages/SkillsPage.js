@@ -56,7 +56,7 @@ function SkillsPage() {
 
       {/* Content */}
       <div className="relative z-10 text-center p-8 min-h-screen flex flex-col items-center justify-start">
-        <h2 className="text-4xl font-bold text-white mb-6">Tech Stack</h2>
+        <h2 className="text-4xl font-bold text-white mb-6 pt-24">Tech Stack</h2>
 
         {/* Tabs */}
         <div className="flex justify-center space-x-4 mb-8">
