@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import profilePhoto from './assets/Kevin Polin Hutabarat Profile.png';
 import './index.css';
-import backgroundMusic from './assets/coding-music.mp3';
+import backgroundMusic from './coding-music.mp3';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'; // Use Link for navigation
 
 // Landing Page Component
