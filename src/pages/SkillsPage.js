@@ -48,15 +48,14 @@ function SkillsPage() {
 
   return (
     <div
-      className="relative min-h-screen bg-cover bg-center bg-no-repeat"
+      className="relative min-h-screen bg-cover bg-center bg-no-repeat flex flex-col"
       style={{ backgroundImage: `url(${techBackground})` }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-70"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-center p-8 min-h-screen min-h-[130vh] flex flex-col items-center justify-start pb-40">
-
+      <div className="relative z-10 flex-1 flex flex-col items-center justify-start p-8 min-h-fit pb-40">
         <h2 className="text-4xl font-bold text-white mb-6 pt-24">Tech Stack</h2>
 
         {/* Tabs */}
