@@ -32,20 +32,20 @@ function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   // const [audio] = useState(new Audio(backgroundMusic));
 
-  const handleExploreClick = () => {
-    setIsEntered(true);
-    audio.play();
-  };
+  // const handleExploreClick = () => {
+  //   setIsEntered(true);
+  //   audio.play();
+  // };
 
   const handleModeSwitch = () => setIsDarkMode(!isDarkMode);
 
-  useEffect(() => {
-    if (isEntered) {
-      audio.loop = true;
-      audio.play();
-    }
-    return () => audio.pause();
-  }, [isEntered, audio]);
+  // useEffect(() => {
+  //   if (isEntered) {
+  //     audio.loop = true;
+  //     audio.play();
+  //   }
+  //   return () => audio.pause();
+  // }, [isEntered, audio]);
 
   return (
     <Router>
