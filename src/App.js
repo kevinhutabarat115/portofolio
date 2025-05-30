@@ -32,10 +32,10 @@ function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   // const [audio] = useState(new Audio(backgroundMusic));
 
-  // const handleExploreClick = () => {
-  //   setIsEntered(true);
-  //   audio.play();
-  // };
+  const handleExploreClick = () => {
+    setIsEntered(true);
+    audio.play();
+  };
 
   const handleModeSwitch = () => setIsDarkMode(!isDarkMode);
 
