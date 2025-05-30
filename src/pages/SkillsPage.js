@@ -3,19 +3,14 @@ import { AnimatePresence, motion } from 'framer-motion';
 import techBackground from '../assets/tech-background.jpg';
 
 function SkillsPage() {
-  const [activeTab, setActiveTab] = useState('advance');
+  const [activeTab, setActiveTab] = useState('familiar');
 
   const skillsData = {
-    advance: [
-      { name: 'Docker', icon: require('../assets/docker-icon.png') },
+    familiar: [
+      { name: 'Javascript', icon: require('../assets/javascript-icon.png') },
       { name: 'NodeJS', icon: require('../assets/nodejs-icon.png') },
-      { name: 'Git', icon: require('../assets/git-icon.png') },
-      { name: 'Kubernetes', icon: require('../assets/kubernetest-icon.png') },
-      { name: 'Bash', icon: require('../assets/bash-script-icon.png') },
-      { name: 'Nginx', icon: require('../assets/nginx-icon.png') },
-      { name: 'Splunk', icon: require('../assets/splunk-icon.png') },
-      { name: 'Gitlab', icon: require('../assets/gitlab-icon.png') },
-      { name: 'Github', icon: require('../assets/github-icon.png') },
+      { name: 'TailwindCSS', icon: require('../assets/tailwindcss-icon.png') },
+      { name: 'ReactJS', icon: require('../assets/react-icon.png') },
     ],
     good: [
       { name: 'Docker', icon: require('../assets/docker-icon.png') },
@@ -34,15 +29,21 @@ function SkillsPage() {
       { name: 'Kibana', icon: require('../assets/kibana-icon.png') },
       { name: 'Grafana', icon: require('../assets/grafana-icon.png') },
       { name: 'Jmeter', icon: require('../assets/apache-jmeter-icon.png') },
-      { name: 'Google Play', icon: require('../assets/google-play-console-icon.png') },
+      { name: 'Google Play Console', icon: require('../assets/google-play-console-icon.png') },
       { name: 'App Store', icon: require('../assets/app-store-connect-icon.png') },
       { name: 'Firebase', icon: require('../assets/firebase-icon.png') },
     ],
-    familiar: [
-      { name: 'Javascript', icon: require('../assets/javascript-icon.png') },
+    advance: [
+      { name: 'Docker', icon: require('../assets/docker-icon.png') },
       { name: 'NodeJS', icon: require('../assets/nodejs-icon.png') },
-      { name: 'TailwindCSS', icon: require('../assets/tailwindcss-icon.png') },
-      { name: 'ReactJS', icon: require('../assets/react-icon.png') },
+      { name: 'Git', icon: require('../assets/git-icon.png') },
+      { name: 'Kubernetes', icon: require('../assets/kubernetest-icon.png') },
+      { name: 'Bash', icon: require('../assets/bash-script-icon.png') },
+      { name: 'Nginx', icon: require('../assets/nginx-icon.png') },
+      { name: 'Splunk', icon: require('../assets/splunk-icon.png') },
+      { name: 'Gitlab', icon: require('../assets/gitlab-icon.png') },
+      { name: 'Github', icon: require('../assets/github-icon.png') },
+      { name: 'Jenkins', icon: require('../assets/jenkins-icon.png') },
     ],
   };
 
@@ -60,7 +61,7 @@ function SkillsPage() {
 
         {/* Tabs */}
         <div className="flex justify-center space-x-4 mb-8">
-          {['advance', 'good', 'familiar'].map((tab) => (
+          {['familiar', 'good', 'advance'].map((tab) => (
             <button
               key={tab}
               className={`px-6 py-2 rounded-md text-white font-semibold transition-all ${
@@ -93,9 +94,11 @@ function SkillsPage() {
                     hover:scale-105 hover:shadow-lg hover:shadow-blue-400/40"
                 >
                   <img
-                    src={skill.icon}
-                    alt={skill.name}
-                    className="w-16 h-16 mb-2 transition-transform duration-300"
+                      src={skill.icon}
+                      alt={skill.name}
+                      className={`mb-2 transition-transform duration-300 object-contain ${
+                      skill.name === 'Google Play Console' ? 'w-14 h-14' : 'w-16 h-16'
+                          }`}
                   />
                   <span className="text-white text-sm">{skill.name}</span>
 

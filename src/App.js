@@ -1,7 +1,7 @@
 // App.js
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import backgroundMusic from './coding-music.mp3';
+// import backgroundMusic from './coding-music.mp3';
 import './index.css';
 
 // Import Pages
