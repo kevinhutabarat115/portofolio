@@ -7,43 +7,7 @@ function ProjectsPage() {
       <h2 className="text-4xl font-bold text-white mb-6">Projects</h2>
 
       <div className="text-left text-gray-300 max-w-3xl mx-auto space-y-10">
-        {/* Project 1 */}
-        <div>
-          <h3 className="text-xl font-semibold text-white mb-2">
-            Migration Infra On-Prem to Alibaba Cloud | Internal Portal & Company Profile Website
-          </h3>
-          <p className="italic mb-4">
-            PT Akulaku Finance Indonesia | November 2023 – July 2024
-          </p>
-          <ul className="list-disc list-inside space-y-2">
-            <li>Collaborated with Developer, SRE, DBA, and QA to plan and execute migration from on-premise to Alibaba Cloud.</li>
-            <li>Provisioned ECS instances for development and production environments in Alibaba Cloud.</li>
-            <li>Configured CLB (Classic Load Balancer) and NACLs to isolate network access for internal office-only websites.</li>
-            <li>Set up DNS records for internal portal website hosted on Alibaba Cloud.</li>
-            <li>Configured Alibaba OSS and scripted automation to transfer static files to OSS.</li>
-          </ul>
-        </div>
-
-        {/* Project 2 */}
-        <div>
-          <h3 className="text-xl font-semibold text-white mb-2">
-            TDW BAU Operation | MYTELKOMSEL APP & WEB
-          </h3>
-          <p className="italic mb-4">
-            PT Phincon – Consultant for Telkomsel | January 2022 – November 2023
-          </p>
-          <ul className="list-disc list-inside space-y-2">
-            <li>Troubleshot, analyzed, and identified root causes of issues in MyTelkomsel App & Web.</li>
-            <li>Deployed and monitored code from Git to production environments for both mobile and web apps.</li>
-            <li>Created and managed automation scripts and Jenkins jobs for operational and deployment purposes.</li>
-            <li>Maintained and configured tools including Ansible, PM2, NGINX, Redis, and JFrog Artifactory.</li>
-            <li>Documented SOPs and Root Cause Analysis (RCA) reports for client review.</li>
-            <li>Supported application testing in Pre-Production and Production environments.</li>
-            <li>Generated and presented daily performance and issue reports to stakeholders.</li>
-          </ul>
-        </div>
-
-        {/* Project 3 */}
+        {/* Project 1 - Phincon (Now) */}
         <div>
           <h3 className="text-xl font-semibold text-white mb-2">
             TDW BAU Operation | MYTELKOMSEL APP & WEB
@@ -64,13 +28,13 @@ function ProjectsPage() {
           </ul>
         </div>
 
-        {/* Project 4 - Personal */}
+        {/* Project 2 - Personal */}
         <div>
           <h3 className="text-xl font-semibold text-white mb-2">
             DevSecOps Personal Project | Node.js + Kubernetes Stack
           </h3>
           <p className="italic mb-4">
-            Personal Project | 2024
+            Personal Project | May 2025
           </p>
           <ul className="list-disc list-inside space-y-2">
             <li>Deployed a simple Node.js application to a local Kubernetes cluster using Minikube.</li>
@@ -78,6 +42,42 @@ function ProjectsPage() {
             <li>Implemented auto-scaling using KEDA (Kubernetes Event-driven Autoscaling).</li>
             <li>Exposed services to the internet using Ngrok tunnel for demonstration and testing purposes.</li>
             <li>Demonstrated end-to-end infrastructure setup from local code to production-like Kubernetes deployment.</li>
+          </ul>
+        </div>
+
+        {/* Project 3 - Akulaku */}
+        <div>
+          <h3 className="text-xl font-semibold text-white mb-2">
+            Migration Infra On-Prem to Alibaba Cloud | Internal Portal & Company Profile Website
+          </h3>
+          <p className="italic mb-4">
+            PT Akulaku Finance Indonesia | November 2023 – July 2024
+          </p>
+          <ul className="list-disc list-inside space-y-2">
+            <li>Collaborated with Developer, SRE, DBA, and QA to plan and execute migration from on-premise to Alibaba Cloud.</li>
+            <li>Provisioned ECS instances for development and production environments in Alibaba Cloud.</li>
+            <li>Configured CLB (Classic Load Balancer) and NACLs to isolate network access for internal office-only websites.</li>
+            <li>Set up DNS records for internal portal website hosted on Alibaba Cloud.</li>
+            <li>Configured Alibaba OSS and scripted automation to transfer static files to OSS.</li>
+          </ul>
+        </div>
+
+        {/* Project 4 - Phincon (Past) */}
+        <div>
+          <h3 className="text-xl font-semibold text-white mb-2">
+            TDW BAU Operation | MYTELKOMSEL APP & WEB
+          </h3>
+          <p className="italic mb-4">
+            PT Phincon – Consultant for Telkomsel | January 2022 – November 2023
+          </p>
+          <ul className="list-disc list-inside space-y-2">
+            <li>Troubleshot, analyzed, and identified root causes of issues in MyTelkomsel App & Web.</li>
+            <li>Deployed and monitored code from Git to production environments for both mobile and web apps.</li>
+            <li>Created and managed automation scripts and Jenkins jobs for operational and deployment purposes.</li>
+            <li>Maintained and configured tools including Ansible, PM2, NGINX, Redis, and JFrog Artifactory.</li>
+            <li>Documented SOPs and Root Cause Analysis (RCA) reports for client review.</li>
+            <li>Supported application testing in Pre-Production and Production environments.</li>
+            <li>Generated and presented daily performance and issue reports to stakeholders.</li>
           </ul>
         </div>
       </div>
