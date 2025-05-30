@@ -30,7 +30,7 @@ function LandingPage({ onExplore }) {
 function App() {
   const [isEntered, setIsEntered] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const [audio] = useState(new Audio(backgroundMusic));
+  // const [audio] = useState(new Audio(backgroundMusic));
 
   const handleExploreClick = () => {
     setIsEntered(true);
