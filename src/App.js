@@ -34,7 +34,7 @@ function App() {
 
   const handleExploreClick = () => {
     setIsEntered(true);
-    audio.play();
+    // audio.play(false);
   };
 
   const handleModeSwitch = () => setIsDarkMode(!isDarkMode);
