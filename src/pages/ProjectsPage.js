@@ -13,18 +13,19 @@ function ProjectsPage() {
             TDW BAU Operation | MYTELKOMSEL APP & WEB
           </h3>
           <p className="italic mb-4">
-            PT Phincon – Consultant for Telkomsel | July 2024 – Present
+            PT Phincon – Consultant/DevOps Engineer for Telkomsel | July 2024 – Present
           </p>
           <ul className="list-disc list-inside space-y-2">
             <li>Developed Telkomsel solutions to support business needs.</li>
-            <li>Deployed production workloads via Jenkins on AWS infrastructure and monitored service success rate.</li>
+            <li>Deployed production workloads via Jenkins on AWS infrastructure and monitored service success rate with grafana and datadog.</li>
             <li>Managed BAU daily team operations and activities.</li>
             <li>Modified existing Jenkins jobs for business-driven changes.</li>
             <li>Provisioned AWS ECR repositories using Terraform.</li>
             <li>Troubleshooted issues across SIT, UAT, FUT, NFT, and Production environments.</li>
             <li>Created Jenkins jobs to generate CSV files from MySQL and deliver to Bank Indonesia servers.</li>
+            <li>Support Migrate the Workflow Deployment for 200+ service of Mytelkomsel App and Mytelkomsel Web from existing using Jenkins CICD to Gitlab CICD Pipeline that use helm as.</li>
             <li>Built Helm job injectors to add labels/annotations to services using Kustomize.</li>
-            <li>Supported deployment workflow migration for legacy applications.</li>
+            <li>Manage and create a standart dockerfile for app developer that use node js and nginx web server for web application</li>
           </ul>
         </div>
 
@@ -68,7 +69,7 @@ function ProjectsPage() {
             TDW BAU Operation | MYTELKOMSEL APP & WEB
           </h3>
           <p className="italic mb-4">
-            PT Phincon – Consultant for Telkomsel | January 2022 – November 2023
+            PT Phincon – Junior Consultant/DevOps Engineer for Telkomsel | January 2022 – November 2023
           </p>
           <ul className="list-disc list-inside space-y-2">
             <li>Troubleshot, analyzed, and identified root causes of issues in MyTelkomsel App & Web.</li>
