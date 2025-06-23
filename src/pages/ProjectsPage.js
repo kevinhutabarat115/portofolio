@@ -23,7 +23,7 @@ function ProjectsPage() {
             <li>Provisioned AWS ECR repositories using Terraform.</li>
             <li>Troubleshooted issues across SIT, UAT, FUT, NFT, and Production environments.</li>
             <li>Created Jenkins jobs to generate CSV files from MySQL and deliver to Bank Indonesia servers.</li>
-            <li>Support Migrate the Workflow Deployment for 200+ service of Mytelkomsel App and Mytelkomsel Web from existing using Jenkins CICD to Gitlab CICD Pipeline that use helm as.</li>
+            <li>Support Migrate the Workflow Deployment for 200+ service of Mytelkomsel App and Mytelkomsel Web from existing using Jenkins CICD to Gitlab CICD Pipeline that use helm.</li>
             <li>Built Helm job injectors to add labels/annotations to services using Kustomize.</li>
             <li>Manage and create a standart dockerfile for app developer that use node js and nginx web server for web application</li>
           </ul>
