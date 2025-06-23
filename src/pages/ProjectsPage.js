@@ -39,6 +39,7 @@ function ProjectsPage() {
           </p>
           <ul className="list-disc list-inside space-y-2">
             <li>Deployed a simple Node.js application to a local Kubernetes cluster using Minikube.</li>
+            <li>Explored Google Kubernetes Engine (GKE) features including Workload Identity, ingress via Cloud DNS, and integration with Google Cloud monitoring.</li>
             <li>Installed and configured observability stack including Grafana, Prometheus, and ELK Stack (Elasticsearch, Logstash, Kibana).</li>
             <li>Implemented auto-scaling using KEDA (Kubernetes Event-driven Autoscaling).</li>
             <li>Exposed services to the internet using Ngrok tunnel for demonstration and testing purposes.</li>
